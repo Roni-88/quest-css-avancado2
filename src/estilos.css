@@ -2,7 +2,8 @@
 
 main {
     position: relative;
-    background-color: hsl(257, 40%, 49%); 
+    background-color: hsl(257, 40%, 49%);
+    max-width: 1440px;
 }
 
 main img {
@@ -18,6 +19,7 @@ header {
 .principal {
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
     top: 190px;
     margin-left: 60px;    
 }
@@ -56,18 +58,37 @@ button {
 button:hover {
     color: #fff;
     background-color: hsl(300, 69%, 71%);   
-} 
-
-i {
-    position: absolute;
-    color: #fff;
-    border: 1px solid;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;   
-    top: 500px;   
 }
 
-i:hover {
+.redes {
+    position: absolute;
+    left: 940px;
+    bottom: 80px;
+}
+
+.redes a {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 50%;   
+    padding: 20px;
+    margin-left: 20px;
+}
+
+a:hover {
     color: hotpink;
+}
+
+.fa-facebook-f {
+    width: 18px;
+    font-size: 25px;   
+}
+
+.fa-twitter {
+    width: 20px;
+    font-size: 25px;
+}
+
+.fa-instagram {
+    width: 20px;
+    font-size: 25px;
 }
