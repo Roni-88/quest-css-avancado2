@@ -1,34 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
-main {
-    position: relative;
-    background-color: hsl(257, 40%, 49%);
-    max-width: 1440px;
+body {
+    min-height: 100vh;
+    background: hsl(257, 40%, 49%) url(imagens/bg-desktop.svg) no-repeat;
+    background-size: cover;
 }
 
-main img {
-    width: 100%;
+main {
+    padding: 0px 60px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.imagem-tela {
+    max-width: 100%;
+    width: 55%;
 }
 
 header {
-    position: absolute;
-    top: 50px;
-    margin-left: 55px;
+    padding: 55px 0 100px 55px;
 }
 
 .principal {
-    position: absolute;
     display: flex;
     flex-wrap: wrap;
-    top: 190px;
-    margin-left: 60px;    
+    
+        
 }
 
 .registro {
     font-family: 'Poppins', sans-serif;
     color: #fff;
     width: 450px;
-    padding-left: 40px;
+    padding-left: 50px;
     margin-top: 50px;
 }
 
@@ -48,8 +52,8 @@ button {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    padding: 10px 50px;
-    border-radius: 25px;
+    padding: 14px 60px;
+    border-radius: 30px;
     border: none;
     cursor: pointer;
     box-shadow: 0 5px 15px rgb(50, 50, 50);
@@ -61,34 +65,28 @@ button:hover {
 }
 
 .redes {
-    position: absolute;
-    left: 940px;
-    bottom: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 150px;
 }
 
 .redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     border: 1px solid;
     border-radius: 50%;   
-    padding: 20px;
     margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
 }
 
 a:hover {
     color: hotpink;
 }
 
-.fa-facebook-f {
-    width: 18px;
-    font-size: 25px;   
-}
-
-.fa-twitter {
-    width: 20px;
-    font-size: 25px;
-}
-
-.fa-instagram {
-    width: 20px;
+.fa-brands {
     font-size: 25px;
 }
