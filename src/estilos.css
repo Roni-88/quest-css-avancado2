@@ -23,9 +23,7 @@ header {
 
 .principal {
     display: flex;
-    flex-wrap: wrap;
-    
-        
+    flex-wrap: wrap;       
 }
 
 .registro {
@@ -67,7 +65,8 @@ button:hover {
 .redes {
     display: flex;
     justify-content: flex-end;
-    padding-top: 150px;
+    padding-top: 120px;
+    margin-top: auto;
 }
 
 .redes a {
@@ -77,9 +76,9 @@ button:hover {
     color: #fff;
     border: 1px solid;
     border-radius: 50%;   
-    margin-left: 20px;
-    width: 60px;
-    height: 60px;
+    margin-left: 25px;
+    width: 55px;
+    height: 55px;
     text-decoration: none;
 }
 
