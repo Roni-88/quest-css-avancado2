@@ -45,6 +45,10 @@ header {
     margin: 20px 0 25px 0;
 }
 
+.registro a {
+    text-decoration: none;
+}
+
 button {
     color: hsl(257, 40%, 49%);
     font-family: 'Poppins', sans-serif;
