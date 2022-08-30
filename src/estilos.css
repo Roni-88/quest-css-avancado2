@@ -12,13 +12,13 @@ main {
     margin: 0 auto;
 }
 
+.cabecalho {
+    padding: 55px 0 100px 0;
+}
+
 .imagem-tela {
     max-width: 100%;
     width: 55%;
-}
-
-header {
-    padding: 55px 0 100px 55px;
 }
 
 .principal {
@@ -69,8 +69,8 @@ button:hover {
 .redes {
     display: flex;
     justify-content: flex-end;
-    padding-top: 120px;
-    margin-top: auto;
+    padding-top: 80px;
+    margin-right: 120px;
 }
 
 .redes a {
