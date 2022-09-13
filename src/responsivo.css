@@ -1,4 +1,62 @@
-@media (max-width: 1160px) {
+@media (max-width: 1600px) {
+    .redes {
+        display: flex;
+        justify-content: end;
+        margin: 90px 20px 0 0;
+    }
+}
+
+@media (max-width: 1240px) {
+    main {
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;  
+    }
+
+    .cabecalho {
+        width: 195px;
+        margin-left: 130px;
+    }
+
+    .imagem-tela {
+       margin: auto;
+       margin-top: -40px;
+    }
+     
+    .registro h1  {
+        margin: auto;
+        width: 85%;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .registro p {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        line-height: 170%;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    button {
+        width: 300px;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+    }
+
+    .redes a {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* @media (max-width: 1160px) {
     main {
     display: flex;
     flex-direction: column;
@@ -35,4 +93,4 @@
         display: flex;       
         justify-content: center;        
     }
-}
+} */
