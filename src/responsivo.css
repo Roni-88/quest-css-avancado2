@@ -41,7 +41,9 @@
     }
 
     button {
-        width: 300px;
+        padding: 12px;
+        width: 280px;   
+        margin-left: 16%;
     }
 
     .redes {
@@ -56,41 +58,17 @@
     }
 }
 
-/* @media (max-width: 1160px) {
-    main {
-    display: flex;
-    flex-direction: column;
-    }
-
-    .cabecalho {
-        margin: 0 auto;
-    }
-
-    .imagem-tela {
-        margin: 0 auto;
-    }
-
-    .redes {
-        display: flex;
-        justify-content: center;
-    }
-
-    button {
-        display: flex;
-        margin: 0 auto;
-        justify-content: center;        
-    }
-}
-
 @media (max-width: 560px) {
+    button {
+        display: flex;       
+        justify-content: center;
+        margin: auto;     
+    }
+
     .redes {
         display: flex;
         justify-content: center;
         padding-top: 40px;
+        
     }
-
-    button {
-        display: flex;       
-        justify-content: center;        
-    }
-} */
+}

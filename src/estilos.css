@@ -68,10 +68,8 @@ button:hover {
 }
 
 .redes {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 50px;
-    margin-right: 150px;
+    width: 100%;
+    
 }
 
 .redes a {
