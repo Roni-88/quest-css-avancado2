@@ -2,7 +2,24 @@
     .redes {
         display: flex;
         justify-content: end;
-        margin: 90px 20px 0 0;
+    }
+
+    .imagem-tela {
+        margin: auto;
+    }
+
+    .registro h1  {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .redes a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .fa-brands {
+        font-size: 20px;
     }
 }
 
@@ -15,18 +32,19 @@
 
     .cabecalho {
         width: 195px;
-        margin-left: 130px;
+        margin-left: 40px;
     }
 
     .imagem-tela {
        margin: auto;
        margin-top: -40px;
+       width: 85%;
     }
      
     .registro h1  {
         margin: auto;
         width: 85%;
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
         margin-bottom: 20px;
     }
@@ -36,7 +54,7 @@
         width: 80%;
         text-align: center;
         line-height: 170%;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
         font-size: 18px;
     }
 
@@ -49,7 +67,59 @@
     .redes {
         display: flex;
         justify-content: center;
-        margin-top: -10px;
+        margin: 50px 0 30px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .registro {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 675px) {
+    main {
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .cabecalho {
+        width: 195px;
+        margin: auto;
+    }
+
+    .imagem-tela {
+       margin: auto;
+       margin-top: -40px;
+    }
+     
+    .registro h1  {
+        margin: auto;
+        width: 85%;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .registro p {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        line-height: 170%;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    button {
+        padding: 12px;
+        width: 280px;   
+        margin-left: 16%;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
     }
 
     .redes a {
@@ -58,17 +128,17 @@
     }
 }
 
-@media (max-width: 560px) {
-    button {
-        display: flex;       
-        justify-content: center;
-        margin: auto;     
-    }
 
-    .redes {
-        display: flex;
-        justify-content: center;
-        padding-top: 40px;
-        
-    }
+
+/* button {
+    display: flex;       
+    justify-content: center;
+    margin: auto;     
 }
+
+.redes {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+} */

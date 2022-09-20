@@ -30,7 +30,7 @@ main {
     font-family: 'Poppins', sans-serif;
     color: #fff;
     width: 500px;
-    padding-left: 80px;
+    
     margin-top: 50px;
 }
 
@@ -68,8 +68,9 @@ button:hover {
 }
 
 .redes {
-    width: 100%;
-    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 230px;         
 }
 
 .redes a {
