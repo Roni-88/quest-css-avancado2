@@ -1,16 +1,28 @@
-@media (max-width: 1600px) {
+@media (max-width: 1435px) {
+    .imagem-tela {
+        margin: auto;
+        max-width: 50%;
+    }
+    
+    .registro {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 40%;
+    }
+    
+    .registro h1  {
+        font-size: 45px;
+    }
+
+    .registro p {
+        max-width: 90%;
+    }
+
     .redes {
         display: flex;
         justify-content: end;
-    }
-
-    .imagem-tela {
-        margin: auto;
-    }
-
-    .registro h1  {
-        font-size: 40px;
-        margin-bottom: 20px;
+        margin: 260px 0 0 80px;
+        
     }
     
     .redes a {
@@ -23,65 +35,47 @@
     }
 }
 
-@media (max-width: 1240px) {
-    main {
-        width: 90%;
-        max-width: 600px;
-        margin: 0 auto;  
+@media (max-width: 1300px) {
+    .imagem-tela {
+        margin: auto;
+        margin-top: -40px;
+     }
+
+     .registro h1  {
+        font-size: 40px;
+        margin-top: -60px;
+        margin-left: -30px;
     }
 
-    .cabecalho {
-        width: 195px;
+    .registro p {
+        margin-left: -30px;
+    }
+
+    button {
+        margin-left: -30px;
+    }
+
+    .redes {
         margin-left: 40px;
     }
+} 
 
-    .imagem-tela {
-       margin: auto;
-       margin-top: -40px;
-       width: 85%;
-    }
-     
-    .registro h1  {
-        margin: auto;
-        width: 85%;
-        font-size: 30px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .registro p {
-        margin: auto;
-        width: 80%;
-        text-align: center;
-        line-height: 170%;
-        margin-bottom: 25px;
-        font-size: 18px;
-    }
-
-    button {
-        padding: 12px;
-        width: 280px;   
-        margin-left: 16%;
-    }
-
+@media (max-width: 1105px) {
     .redes {
-        display: flex;
-        justify-content: center;
-        margin: 50px 0 30px 0;
+        margin-top: 150px;
+        margin-left: 180px;
     }
 }
 
-@media (min-width: 1200px) {
-    .registro {
-        padding-left: 80px;
-    }
-}
+/* @media (max-width: 1020px) {
 
-@media (max-width: 675px) {
+} */
+
+@media (max-width: 1020px) {
     main {
-        width: 90%;
-        max-width: 600px;
-        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
     }
 
     .cabecalho {
@@ -89,37 +83,41 @@
         margin: auto;
     }
 
+    .principal {
+        position: relative;
+    }
+
     .imagem-tela {
-       margin: auto;
-       margin-top: -40px;
+       min-width: 80%;
+    }
+
+    .registro {
+        position: absolute;
+        margin-top: 440px;
+        width: 100%;
+        max-width: 150%;
+        justify-content: center;
     }
      
-    .registro h1  {
-        margin: auto;
-        width: 85%;
+    .registro h1  {    
         font-size: 30px;
-        text-align: center;
-        margin-bottom: 20px;
     }
 
     .registro p {
-        margin: auto;
-        width: 80%;
         text-align: center;
         line-height: 170%;
         margin-bottom: 25px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     button {
         padding: 12px;
-        width: 280px;   
-        margin-left: 16%;
+        width: 280px;
     }
 
     .redes {
-        display: flex;
-        justify-content: center;
+        position: absolute;
+        top: 70px;
     }
 
     .redes a {
@@ -127,18 +125,3 @@
         height: 40px;
     }
 }
-
-
-
-/* button {
-    display: flex;       
-    justify-content: center;
-    margin: auto;     
-}
-
-.redes {
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    
-} */

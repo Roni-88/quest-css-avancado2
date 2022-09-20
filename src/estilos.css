@@ -16,27 +16,27 @@ main {
     padding: 55px 0 100px 0;
 }
 
-.imagem-tela {
-    max-width: 100%;
+.imagem-tela {  
     width: 55%;
+    height: 100%;
 }
 
 .principal {
     display: flex;
-    flex-wrap: wrap;       
+    flex-wrap: wrap;
+    gap: 80px;    
 }
 
 .registro {
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    width: 500px;
-    
+    width: 500px;   
     margin-top: 50px;
 }
 
 .registro h1 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .registro p {
