@@ -21,8 +21,7 @@
     .redes {
         display: flex;
         justify-content: end;
-        margin: 260px 0 0 80px;
-        
+        margin: 260px 0 0 80px; 
     }
     
     .redes a {
@@ -61,15 +60,19 @@
 } 
 
 @media (max-width: 1105px) {
+    .imagem-tela {
+        margin-top: 0;
+    }
+
+    .registro h1 {
+        font-size: 35px;
+    }
+
     .redes {
-        margin-top: 150px;
+        margin-top: 140px;
         margin-left: 180px;
     }
 }
-
-/* @media (max-width: 1020px) {
-
-} */
 
 @media (max-width: 1020px) {
     main {
@@ -90,7 +93,7 @@
     }
 
     .imagem-tela {
-       min-width: 70%;
+       min-width: 65%;
     }
 
     .registro {
