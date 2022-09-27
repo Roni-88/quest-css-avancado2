@@ -35,7 +35,7 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1300px) and (min-width: 1105px) {
     .imagem-tela {
         margin: auto;
         margin-top: -40px;
@@ -79,47 +79,96 @@
     }
 
     .cabecalho {
-        width: 60%;
-        margin: auto;
+        width: 35%;
+        margin: 30px auto 40px 95px;
+        padding: 0;
     }
 
     .principal {
         display: flex;
+        gap: 30px;
     }
 
     .imagem-tela {
-       min-width: 80%;
+       min-width: 70%;
     }
 
     .registro {
         display: flex;
         margin: auto;
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
     }
      
     .registro h1  {    
-        font-size: 30px;
-        margin-left: auto;
-        
+        font-size: 35px;
+        max-width: 400px;
+        width: 100%;
+        margin: auto;
     }
 
     .registro p {
-        text-align: center;
-        line-height: 170%;
         margin-bottom: 25px;
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 170%;
+        margin: auto;
+        margin-top: 20px;
     }
 
     button {
         padding: 12px;
         width: 280px;
+        margin-top: 30px;
     }
 
     .redes {
-        margin: 30px 0 30px 0;
+        margin: auto;
+        margin-top: 40px;
+        text-align: center;
+        gap: 20px;
     }
 
     .redes a {
         width: 40px;
         height: 40px;
+        margin: 0;           
     }
 }
+
+ @media (max-width: 495px) {
+    .cabecalho {
+        width: 45%;
+        margin: 50px auto 40px 35px;
+        padding: 0;
+    }
+
+    .imagem-tela {
+        min-width: 90%;
+     }
+
+    .registro h1  {    
+        font-size: 25px;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .registro p {
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 170%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 12px;
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .redes {
+        margin: auto;
+        margin-top: 90px;
+    }
+ }
